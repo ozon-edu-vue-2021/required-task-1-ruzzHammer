@@ -55,7 +55,8 @@ main {
     font-size: 16px;
     padding: 10px 20px;
     border-radius: 6px;
-    margin: 10px 0;
+    margin: 10px auto;
+    max-width: max-content;
 }
 
 .action:hover {
@@ -131,9 +132,10 @@ figcaption {
 
 .popup.open {
     visibility: visible;
+    z-index: 1;
 }
 
-.action {
+.action.close {
     position: absolute;
     top: 50px;
     right: 50px;
