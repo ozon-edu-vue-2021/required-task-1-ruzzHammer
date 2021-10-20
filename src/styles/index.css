@@ -160,4 +160,9 @@ figcaption {
 
 .popup .link {
   display: inline;
+  background: transparent;
+}
+
+.popup .link:hover {
+  text-decoration: none;
 }
